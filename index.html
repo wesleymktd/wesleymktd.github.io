@@ -2,9 +2,119 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portifólio Wesley Lima</title>      
   </head>
   <body>
+    <div class="background">
+      <nav>
+        <h2>Portifo<span>lio</span></h2>
+        <ul class="cabeçalho-link">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre mim</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Projetos</a></li>
+        </ul><!-- cabeçalho link -->
+      </nav>
+      <div class="Main">
+        <h4>Olá meu nome é</h4>
+        <h1>Wesley<span>Moreira</span></h1>
+        <h3>Eu sou um desenvolvedor web</h3>
+      </div><!--Main-->
+
+      <aside>
+        <div class="icon-menu" onclick="abrirmenu()">
+          <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+        </div><!--icon-menu-->
+
+        <div id="barra-menu">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Projetos</a></li>
+          </ul>
+        </div><!--barra-menu-->
+      </aside>
+
+    </div><!--background-->
+
+    <!--começo-da-seção-sobre-->
+
+    <section class="background-color-sobre">
+      <div class="Main-sobre">
+        <img src="imagem-BG-auxiliar.jpg">
+        <div class="text-sobre">
+          <h2>Sobre mim</h2>
+          <h5>Desenvolvedor <span>Web</span></h5>  
+          <p>Sou determinado, perseverante, responsável e criativo. Gosto de informática e sou movido pelo desafio em aprender novas habilidades no ramo da tecnologia. Iniciei minha jornada como publicitário na área de marketing digital, mas eu me descobri mesmo foi na área de desenvolvimento web, atualmente trabalho como auxiliar de e-commerce, sou estudante de desenvolvimento web na Trybe</p>
+        </div><!--text-sobre-->
+      </div><!--main-sobre-->
+    </section><!--background-color-sobre-->
+
+    <section class="background-color-sobre">
+      <div class="Main-sobre">
+        <div class="text-sobre">
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Web designer em WordPress</li>
+            <li>Java Script</li>
+            <li>E-commerce</li>
+            <li>Edição de fotos</li>
+            <li>Excel</li>
+            <li>ERP</li>
+            <li>Marketing Digital</li>
+          </ul>
+        </div><!--text-sobre-->
+      </div><!--main-sobre-->
+    </section><!--background-color-sobre-->
+
+    <div class="container-serviços">
+      <div class="Title">
+        <h2>Projetos</h2>
+      </div><!--Title-->
+      <div class="Caixa">
+        <div class="card">
+          <i class="fa fa-bars"></i>
+          <h5>Desenvolvedor web</h5>
+          <p>Muitos sites devem ser construídos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos.</p>
+          <button class="btn">Confira</button>
+        </div><!--card-->
+
+        <div class="card">
+          <i class="fa fa-user"></i>
+          <h5>Desenvolvedor web</h5>
+          <p>Muitos sites devem ser construídos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos.</p>
+          <button class="btn">Confira</button>
+        </div><!--card-->
+
+        <div class="card">
+          <i class="fa fa-bell"></i>
+          <h5>Desenvolvedor web</h5>
+          <p>Muitos sites devem ser construídos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos.</p>
+          <button class="btn">Confira</button>
+        </div><!--card-->
+      </div><!--Caixa-->
+
+    </div><!--container-serviços-->
+    <footer>
+      <h6>Wesley Moreira</h6>
+      <p>Minhas Redes Sociais</p>
+      <div class="Redes-sociais">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div><!--Redes-sociais-->
+      
+      <div class="End">
+        <p>Desenvolvido por Wesley Moreira</p>
+      </div>
+    </footer>
   <h1><a href="#foto currículo"> Wesley Alves Moreira Lima</a></h1>
   <h2>Índice</h2>
   <ul>
@@ -29,5 +139,8 @@
   </ul>
     
   </p>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
